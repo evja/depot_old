@@ -11,6 +11,8 @@ class ProductsControllerTest < ActionController::TestCase
     }
   end
 
+  test ""
+
   test "should get index" do
     get :index
     assert_response :success
